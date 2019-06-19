@@ -9,7 +9,7 @@ import reporting.TestLogger;
 import static base.CommonAPI.convertToString;
 import static base.CommonAPI.driver;
 
-public class CnnHomePage {
+public class CnnHomePage  extend CommonAPI{
     @FindBy(css = "#menu")
     WebElement selectingMenu;
 
